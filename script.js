@@ -1,8 +1,4 @@
-function mincost(arr)
-{ 
-//write your code here
-// return the min cost
-	  function mincost(arr){
+function mincost(arr){
      const minheap=[...arr].sort((a,b)=>a-b);
 
      let totalCost=0;
@@ -19,8 +15,8 @@ function mincost(arr)
      return totalCost;
 
     }
-    console.log(mincost([9,7,5,4]));
+console.log(mincost([4,3,2,6]));
   
-}
+
 
 module.exports=mincost;
